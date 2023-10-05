@@ -78,7 +78,7 @@ zip_code,regexPattern,([4-9]{5})
 email_address,regexPattern,"([a-zA-Z0-9]{1,10})\@[a-z]{1,5}\.(com|net|org|in)"
 compositeKey1,composite,dateRange1|model1|number1|phone_number|zip_code
 ```
-Explanation of above file:
+Explanation of above file and possible data types with this tool:
 - `uniqueIndex`: This indicates that the `id1` column should contain unique and sequential values, starting from `800000000`.
 - `date`: This indicates that the `date1` column should contain a fixed date value (`2022-10-26`) for all rows. `%Y-%m-%d` format is used.
 - `time`: This indicates that the `time1` column should contain random time values between `00:00:00` and `23:59:59`.
