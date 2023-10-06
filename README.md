@@ -130,7 +130,7 @@ python main.py -c e 100000 parquet edit_table.csv conf.csv # Along with given da
 python main.py -c g 1000000 csv scale.csv # Generate 1000000 rows of mock data by scaling existing data and save as scale_1000000.csv
 ```
 Sample output for `python .\main.py -c m 1000000 csv test .\test_conf.csv `:
-![image.png](./confluence/145434.png)
+<!-- ![image.png](./confluence/145434.png) -->
 ```bash
 id1,date1,model1,probability1,float1,number1,test1,time1,dateRange1,incometime2,outcometime3,name1,phone_number,zip_code,email_address,compositeKey1
 800000004,2022-10-26,,0.792,0.14948,12,Done,11:34:20,2022-04-07,2022-06-28 21:33:32,2022-07-03 09:41:10,"gkxtawx, pfuf",+65-67845-69497,65957,ji8et6@u.net,c05b0a767331f3176ec3cdf3dee852759a858e30
@@ -138,7 +138,7 @@ id1,date1,model1,probability1,float1,number1,test1,time1,dateRange1,incometime2,
 800000009,2022-10-26,Lending,0.267,0.17349,17,Done,08:43:08,2022-01-31,2021-12-11 02:33:20,2021-12-19 22:29:15,"vlflyewer, ilj",+564-44495-77467,98785,3mjDBVliLT@ydbpg.com,c068d7d1a8d5e1c6527f84246d8b9dc911b52884
 800000003,2022-10-26,,0.565,0.20937,11,Done,02:52:08,2022-04-27,2022-10-25 22:21:19,2022-11-15 16:22:14,"orkilkzh, xozrfwwrtq",+88-95566-65789,68677,Ulq@u.org,d51540c711301c6badc2aad051bb048fd175201b
 ```
-![image.png](./confluence/232516.png)
+<!-- ![image.png](./confluence/232516.png) -->
 ## License
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 ## Acknowledgments
